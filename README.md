@@ -6,5 +6,6 @@ You'll also need to install Material UI as a dependency. To do this run **npm in
 
 ### Next steps
 
-1. add google finds to index.html
+1. add google fonts to index.html
 2. Install icons (npm install @material-ui/icons)
+3. Need to run json server / setup db.json file in /data.
