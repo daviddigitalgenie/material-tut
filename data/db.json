@@ -13,16 +13,16 @@
       "id": 2
     },
     {
-      "title": "Mario's birthday present",
-      "details": "sfkasdjsakdfjdfs",
-      "category": "reminders",
-      "id": 4
-    },
-    {
       "title": "Pay accountant",
       "details": "Pay the accountant for last fin year",
       "category": "money",
       "id": 5
+    },
+    {
+      "title": "New Note",
+      "details": "This is a note in the Reminders category.",
+      "category": "reminders",
+      "id": 6
     }
   ]
 }

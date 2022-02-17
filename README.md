@@ -9,3 +9,7 @@ You'll also need to install Material UI as a dependency. To do this run **npm in
 1. add google fonts to index.html
 2. Install icons (npm install @material-ui/icons)
 3. Need to run json server / setup db.json file in /data.
+```
+npm install -g json-server
+json-server --watch ./data/db.json --port 8000
+```
