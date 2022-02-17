@@ -17,6 +17,12 @@
       "details": "sfkasdjsakdfjdfs",
       "category": "reminders",
       "id": 4
+    },
+    {
+      "title": "Pay accountant",
+      "details": "Pay the accountant for last fin year",
+      "category": "money",
+      "id": 5
     }
   ]
 }

@@ -4,6 +4,7 @@ import Create from './pages/Create'
 import { ThemeProvider, Typography } from '@material-ui/core'
 import { createTheme } from '@material-ui/core/styles'
 import CssBaseline from '@material-ui/core/CssBaseline';
+import Layout from './components/Layout'
 
 const theme = createTheme({
   palette : {
@@ -17,14 +18,16 @@ function App() {
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <Router>
-        <Switch>
-          <Route exact path="/">
-            <Notes />
-          </Route>
-          <Route path="/create">
-            <Create />
-          </Route>
-        </Switch>
+        <Layout>
+          <Switch>
+            <Route exact path="/">
+              <Notes />
+            </Route>
+            <Route path="/create">
+              <Create />
+            </Route>
+          </Switch>
+        </Layout>
       </Router>
     </ThemeProvider>
   );
